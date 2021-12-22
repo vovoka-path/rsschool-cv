@@ -22,7 +22,11 @@ header{
 main{
     width: 100%;
     background-color: rgb(240, 255, 254);
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    
 }
 
 footer{
