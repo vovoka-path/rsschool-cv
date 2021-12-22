@@ -8,4 +8,11 @@
 * HTML, CSS, JS
 * Client-Server architecture
 * Principes OOP
-
+#### Code example
+```
+function getMiddle(s)
+{
+  let len = s.length
+  return (len % 2 === 0) ? s.slice(len/2 - 1, len/2 + 1) : s.charAt(~~len/2)
+}
+```
