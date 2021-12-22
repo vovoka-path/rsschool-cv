@@ -26,5 +26,13 @@ function getMiddle(s)
 * [**webhookForm**](https://github.com/vovoka-path/webhookForm) | PHP
 
     *Web form data send to Telegram and MySQL*
+### **Experience**
+`2011-2020`  - **Photographer**
+ 
+    Marketing, website development, SEO, social media management, customization and optimization of advertising campaigns.
+
+`2000-2011` - **Sales Representative**
+
+    Estate, manufactured goods.
 
 
