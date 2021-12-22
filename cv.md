@@ -8,7 +8,7 @@
 * HTML, CSS, JS
 * Client-Server architecture
 * Principes OOP
-#### **Code example**
+### **Code example**
 ```
 function getMiddle(s)
 {
