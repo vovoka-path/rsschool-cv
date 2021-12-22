@@ -37,4 +37,6 @@ function getMiddle(s)
 `2016` | **Webcom Academy** - Social media marketing course
 
 `1993-1998` | **BGATU** - Agricultural Electrification Engineer
+### **English**
 
+* **Pre-intermediate (A2)** - Practicing Intermediate (B1) now
