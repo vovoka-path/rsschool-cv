@@ -28,8 +28,13 @@ function getMiddle(s)
     *Web form data send to Telegram and MySQL*
 ### **Experience**
 `2011-2020` | **Photographer**
-     - Marketing, website development, SEO, social media management, customization and optimization of advertising campaigns.
+     - Marketing, website development, SEO, social media management, customization and optimization of advertising campaigns
 
-`2000-2011` | **Sales Representative** - Real estate, manufactured goods.
+`2000-2011` | **Sales Representative** - Real estate, manufactured goods
+### **Education**
+`2018` | **StartUpOn** - Intensive for start-up entrepreneurs
 
+`2016` | **Webcom Academy** - Social media marketing course
+
+`1993-1998` | **BGATU** - Agricultural Electrification Engineer
 
