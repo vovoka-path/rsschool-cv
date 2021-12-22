@@ -5,10 +5,10 @@
 ### **Skills**
 * C#/ASP.NET Core MVC
 * SQL, MySQL
-* HTML, CSS, JS
+* HTML, CSS, JS, PHP, Python
 * Client-Server architecture
 * Principes OOP
-#### **Code example**
+### **Code example**
 ```
 function getMiddle(s)
 {
