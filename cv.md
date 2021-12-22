@@ -1,7 +1,7 @@
 # __Vladimir Polansky__
 
 | Minsk | +375 (29) 774 98 94 | vovoka.path@gmail.com | Discord: [Vladimir Polansky(@vovoka-path)](http://www.example.com)
-|----------------|--------------|--------------|--------------|
+|---------------|--------------|--------------|--------------|
 
 -----
 ### **Skills**
@@ -21,6 +21,7 @@ function getMiddle(s)
   return (len % 2 === 0) ? s.slice(len/2 - 1, len/2 + 1) : s.charAt(~~len/2)
 }
 ```
+
 -----
 ### **Projects**
 * [**SpreadsheetsToMysql**](https://github.com/vovoka-path/SpreadsheetsToMysql) | .NET WPF application
