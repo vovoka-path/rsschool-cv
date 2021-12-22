@@ -14,7 +14,9 @@
 
 -----
 ### **Code example**
+
 - [**Codewars profile**](https://www.codewars.com/users/vovoka)
+
 ```
 function getMiddle(s)
 {
