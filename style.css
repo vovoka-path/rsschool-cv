@@ -27,6 +27,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  background-color: #f0fffe;
 }
 
 .container {
@@ -49,13 +50,38 @@ body {
 
 /* Link */
 .section-item a {
-  color: #829985;
+  color: #4EA69F;
   text-decoration: none;
-  transition: color 0.5s;
+  transition: color 0.7s ease;
 }
 
 .section-item a:hover {
-  color: #4d2323;
+  color: #C4A8A6;
+}
+
+/* ul>li */
+ul li { 
+  margin-bottom: 10px;
+}
+
+li.contact-item {
+  list-style: none;
+}
+
+li.contact-item:before {
+  color: #A6874E;
+  content: "◗ ";
+  padding-right: 10px;
+}
+
+li.skill-item, li.courses-item, li.projects-item {
+  list-style: none;
+}
+
+li.skill-item:before, li.courses-item:before, li.projects-item:before {
+  color: #A6874E;
+  content: "▷ ";
+  padding-right: 10px;
 }
 
 /* HEADER */
@@ -91,7 +117,6 @@ body {
 /* MAIN */
 main {
   width: 100%;
-  background-color: #f0fffe;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 5em;
@@ -102,6 +127,7 @@ main {
 .section-profile {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
@@ -113,12 +139,35 @@ main {
   justify-content: center;
   align-content: center;
   text-align: center;
+  margin: 0 auto;
+}
+
+.section-profile-name {
+  color: #A6874E;
   text-transform: uppercase;
 }
 
+.section-profile-subtitle {
+  text-transform: lowercase;
+}
+
 .profile-avatar {
+  display: block;
+  margin: 0 auto;
   width: 200px;
   height: 200px;
+  border-radius: 200px;
+  opacity: 0.8;
+}
+
+.profile-avatar:hover {
+  filter: brightness(1.11);
+  box-shadow: 0 0 7px #A6874E;
+}
+
+.pre {
+  background-color: #eeeeee;
+  padding: 0 20px;
 }
 
 /* FOOTER */
