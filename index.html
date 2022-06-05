@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container section-item">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container section-item main-container">
+        <section id="profile" class="section section-profile">
+          <img
+            src="assets/img/avatar.jpg"
+            alt="my photo"
+            class="profile-avatar"
+          />
+          <div class="section-profile-title">
+            <h1 class="section-profile-name">Vladimir Polansky</h1>
+            <h3 class="section-profile-subtitle">Front-End Developer</h3>
+          </div>
+        </section>
+
+        <section id="contacts" class="section section-contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contact-list">
+            <li class="contact-item">Minsk, Belarus</li>
+            <li class="contact-item">
+              Github:
+              <a href="https://github.com/vovoka-path/" class="contact-link rotate"
+                >vovoka-path</a
+              >
+            </li>
+            <li class="contact-item">
+              Email:
+              <a href="mailto:vovoka-path@gmail.com" class="contact-link rotate"
+                >vovoka-path@gmail.com</a
+              >
+            </li>
+            <li class="contact-item">
+              Telegram:
+              <a href="tg://resolve?domain=vovoka" class="contact-link rotate"
+                >@vovoka</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="summary" class="section section-summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            It all started when I was in school. In my lifetime, I’ve written code in different languages: JS, C#/.NET, Python, Java, PHP and etc. It helped me make an informed choice about what to do next. Now I’m interested in JS, React, Node.js.<br />
+            <br />
+            I’m curious. I'm highly motivated. I read a lot of books and learn new things all the time. It’s easy for me to communicate with other people. IT culture is very close to me so I guess I might be a good leader. 
+          </p>
+        </section>
+
+        <section id="skills" class="section section-skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skill-list">
+            <li class="skill-item">HTML, CSS (SCSS), Javascript</li>
+            <li class="skill-item">ReactJS 16+/Hooks</li>
+            <li class="skill-item">SQL, MySQL</li>
+            <li class="skill-item">Git, Github</li>
+            <li class="skill-item">Typescript and Node.js knowledge</li>
+            <li class="skill-item">Webpack, Storybook</li>
+            <li class="skill-item">SOLID, BEM, principles OOP/FP, Clean Code</li>
+            <li class="skill-item">HTTP, Client-Server architecture</li>
+            <li class="skill-item">Understanding of UI/UX</li>
+          </ul>
+        </section>
+
+        <section id="code" class="section section-code">
+          <h2 class="section-title">Code example</h2>
+          
+          <pre class="pre"><code>
+export default class Key {
+  constructor(keySet) {
+    this.type = keySet.type;
+    this.code = keySet.code;
+    this.width = keySet.width;
+
+    const [ en, enUp, ru, ruUp ] = keySet.symbols;
+
+    this.en = { 'false': en, 'true': enUp };
+    this.ru = { 'false': ru, 'true': ruUp };
+  }
+
+  getSymbol(lang, isShift = false) {
+    return this[lang][isShift];
+  ...
+          </code></pre>
+          <a href="https://www.codewars.com/users/vovoka">
+            My Codewars profile>>
+          </a>
+        </section>
+
+        <section id="courses" class="section section-courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="courses-list">
+            <li class="courses-item">
+              <a href="https://rs.school/js/" target="_blank">JS/Frontend Stage#2 2022</a>
+            </li>
+            <li class="courses-item">
+              <a href="https://it-course.online/" target="_blank">Complete React Developer Course by Zar Zakharov 2022</a>
+            </li>
+            <li class="courses-item">
+              <a href="https://rs.school/js/" target="_blank">JS/Frontend Stage#1 2022</a>
+            </li>
+            <li class="courses-item">
+              <a href="https://rs.school/js/" target="_blank">JS/Frontend Pre-School 2022</a>
+            </li>
+            <li class="courses-item">
+              <a
+                href="https://careers.epam.by/training/training-listings/training.3518"
+                target="_blank"
+              >
+                .NET Development 2021</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="projects" class="section section-projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="projects-list">
+            <li class="projects-item">
+              <a 
+                href="https://github.com/vovoka-path/practice-translate"
+                target="_blank" 
+                class="projects-link"
+              >
+                Practice English
+              </a>
+              &nbsp[ JS, HTML, SCSS ]
+              <br />
+              App for practicing fast translation into English from Russian. 
+            </li>
+            <li class="projects-item">
+              <a 
+                href="https://github.com/vovoka-path/cssMemSlider"
+                target="_blank" 
+                class="projects-link"
+              >
+                RSS: Virtual Keyboard
+              </a> 
+              &nbsp[ JS, HTML, SCSS ]
+              <br />
+              RS School task, Stage#1
+            </li>
+            <li class="projects-item">
+              <a 
+                href="https://github.com/vovoka-path/cssMemSlider"
+                target="_blank" 
+                class="projects-link"
+              >
+                RSS: CSS Meme Slider
+              </a> 
+              &nbsp[ HTML, CSS ]
+              <br />
+              RS School task, Stage#1
+            </li>
+            <li class="projects-item">
+              <a 
+                href="https://github.com/vovoka-path/SpreadsheetsToMysql"
+                target="_blank" 
+                class="projects-link"
+              >
+                SpreadsheetsToMysql
+              </a> 
+              &nbsp[ .NET WPF application ]
+              <br />
+              Transfer data from Google Spreadsheets to MySQL
+            </li>
+            <li class="projects-item">
+              <a 
+                href="https://github.com/vovoka-path/RenameFiles"
+                target="_blank" 
+                class="projects-link"
+              >
+                RenameFiles
+              </a> 
+              &nbsp[ .NET Forms ]
+              <br />
+              The task was set by a photographer
+            </li>
+            <li class="projects-item">
+              <a 
+                href="https://github.com/vovoka-path/webhookForm"
+                target="_blank" 
+                class="projects-link"
+              >
+                webhookForm
+              </a>
+              &nbsp[ PHP ]
+              <br />
+              Web form data send to Telegram and MySQL
+            </li>
+          </ul>
+        </section>
+        
+        <section id="languages" class="section section-languages">
+          <h2 class="section-title">English</h2>
+          <div class="languages">
+            <strong>Intermediate (B1)</strong> - Practicing now
+          </div>
+        </section>
+
+        <section id="education" class="section section-education">
+          <h2 class="section-title">Education</h2>
+          <div class="education">
+            <strong>BGATU</strong> - Electrical/Energy Engineer
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container section-item">
+        <a href="https://github.com/vovoka-path/" class="github-link"
+          >2022 © Vladimir Polansky</a
+        >
+        <a href="https://rs.school/js/" class="link-rss"></a>
+      </div>
+    </footer>
+  </body>
+</html>
