@@ -48,6 +48,10 @@ body {
   padding-bottom: 30px;
 }
 
+.section-title {
+  color: #4EA69F;
+}
+
 /* Link */
 .section-item a {
   color: #4EA69F;
@@ -148,6 +152,7 @@ main {
 }
 
 .section-profile-subtitle {
+  color: #A6874E;
   text-transform: lowercase;
 }
 
